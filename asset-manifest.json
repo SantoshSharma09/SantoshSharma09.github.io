@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.3a61645d.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.9ce6e89d.css",
+    "main.js": "/static/js/main.07675106.js",
+    "static/media/hotstar.PNG": "/static/media/hotstar.bc505c68e6d5ea398f24.PNG",
+    "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
+    "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
+    "static/media/youtube.PNG": "/static/media/youtube.90e996fadf6306b4a737.PNG",
+    "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
+    "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
+    "static/media/fabbag.PNG": "/static/media/fabbag.d5b474b8853cf2358bef.PNG",
+    "static/media/mailchimp.PNG": "/static/media/mailchimp.dbf779022af67f132304.PNG",
+    "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
+    "static/media/SantoshSharma_Resume.pdf": "/static/media/SantoshSharma_Resume.a78f6dca70e233e28b89.pdf",
+    "static/media/studentDashboard.PNG": "/static/media/studentDashboard.300bfadbdf17cf51fd80.PNG",
+    "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
+    "static/media/santosh.jpg": "/static/media/santosh.b4cbc4c16f798ff68cd8.jpg",
+    "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
+    "static/media/mobile.png": "/static/media/mobile.145d9ce0157a56f8fcd8.png",
+    "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
+    "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.3a61645d.js.map": "/static/js/main.3a61645d.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "main.9ce6e89d.css.map": "/static/css/main.9ce6e89d.css.map",
+    "main.07675106.js.map": "/static/js/main.07675106.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3a61645d.js"
+    "static/css/main.9ce6e89d.css",
+    "static/js/main.07675106.js"
   ]
 }
