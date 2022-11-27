@@ -1,12 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import { Navbar } from "./components";
+import { About, Footer, Header, Skills, Projects } from "./container";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     Hello World
+    <div className="app">
+      <Navbar />
+      <Header />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
