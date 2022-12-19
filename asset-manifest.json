@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab7ce31b.css",
-    "main.js": "/static/js/main.1a3c5118.js",
+    "main.js": "/static/js/main.d824d805.js",
     "static/media/hotstar.PNG": "/static/media/hotstar.bc505c68e6d5ea398f24.PNG",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
@@ -12,9 +12,9 @@
     "static/media/mailchimp.PNG": "/static/media/mailchimp.dbf779022af67f132304.PNG",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/SantoshSharma_Resume.pdf": "/static/media/SantoshSharma_Resume.a78f6dca70e233e28b89.pdf",
+    "static/media/santosh.jpeg": "/static/media/santosh.5ccdc14e1b8fa4aa377e.jpeg",
     "static/media/studentDashboard.PNG": "/static/media/studentDashboard.300bfadbdf17cf51fd80.PNG",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
-    "static/media/santosh.jpg": "/static/media/santosh.b4cbc4c16f798ff68cd8.jpg",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/mobile.png": "/static/media/mobile.145d9ce0157a56f8fcd8.png",
     "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
@@ -23,10 +23,10 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.ab7ce31b.css.map": "/static/css/main.ab7ce31b.css.map",
-    "main.1a3c5118.js.map": "/static/js/main.1a3c5118.js.map"
+    "main.d824d805.js.map": "/static/js/main.d824d805.js.map"
   },
   "entrypoints": [
     "static/css/main.ab7ce31b.css",
-    "static/js/main.1a3c5118.js"
+    "static/js/main.d824d805.js"
   ]
 }
