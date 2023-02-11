@@ -17,6 +17,7 @@ import {
   SiExpress,
   SiNetlify,
   SiVercel,
+  SiPostman,
   // SiPostman,
 } from "react-icons/si";
 import { DiMongodb, DiHeroku } from "react-icons/di";
@@ -142,19 +143,16 @@ const Skills = () => {
             </div>
             <p className="p-text">Bootstrap</p>
           </motion.div>
-          {/* <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
-            >
-              <div
-                className="app__flex"
-                style={{ backgroundColor: 'none' }}
-              >
-                <SiPostman />
-              </div>
-              <p className="p-text">Postman</p>
-            </motion.div> */}
+          <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="app__skills-item app__flex"
+          >
+            <div className="app__flex" style={{ backgroundColor: "none" }}>
+              <SiPostman />
+            </div>
+            <p className="p-text">Postman</p>
+          </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
@@ -223,6 +221,14 @@ const Skills = () => {
         <h2 className="head-text" data-aos="fade-right">
           GitHub Stats
         </h2>
+        <br />
+        <div>
+          <img
+            src="https://camo.githubusercontent.com/92e4bffab3d5536d6950781e7656d7b8871f84987e9fcbc5dab4905cb3ece45f/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d73616e746f7368736861726d6130392673686f775f69636f6e733d74727565266c6f63616c653d656e"
+            style={{ marginRight: "10px" }}
+          />
+          <img src="https://camo.githubusercontent.com/bf49846a4b5ca6d44c6b6e12e6a2f1973309410426484d7d07f6a8ca0cc1583a/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d73616e746f7368736861726d6130392673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374" />
+        </div>
         <br />
         <br />
       </div>

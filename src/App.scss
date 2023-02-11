@@ -1,6 +1,9 @@
+p {
+  color: "black";
+}
 .app {
   font-family: var(--font-base);
-  background-color: #150734;
+  background-color: black;
   color: white;
 }
 
@@ -10,14 +13,14 @@
 }
 
 .app__primarybg {
-  background-color: #150734;
+  background-color: black;
   color: white;
 }
 
 .app__container {
   width: 100%;
   min-height: 100vh;
- 
+
   display: flex;
   flex-direction: row;
 }
@@ -59,7 +62,7 @@
   font-weight: 800;
   text-align: center;
   color: var(--black-color);
-  text-transform: capitalize;
+  // text-transform: capitalize;
 
   span {
     color: var(--secondary-color);

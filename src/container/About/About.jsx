@@ -4,49 +4,35 @@ import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
 import { urlFor, client } from "../../client";
-import { Timeline } from "../timeline/timeline";
+// import { Timeline } from "../timeline/timeline";
 import { abouts } from "./data";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
-AOS.init()
+  // AOS.init();
 
   return (
     <>
-      <h2 className="head-text" data-aos="fade-right">
-        Attractive & <span>Good Applications</span> <br />
-        means <span>Good Business</span>
-      </h2>
-
-      <div className="app__profiles" data-aos="fade-right">
-        {abouts.map((about, index) => (
-          <motion.div
-            whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: "tween" }}
-            className="app__profile-item"
-            key={about.title + index}
-            data-aos="fade-right"
-          >
-            <img src={urlFor(about.imgUrl)} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>
-              {about.title}
-            </h2>
-            <p className="p-text" style={{ marginTop: 10 }}>
-              {about.description}
-            </p>
-          </motion.div>
-        ))}
-      </div>
-      <br />
-      <br />
-      <br />
-
-      <Timeline />
-       <br />
-       <br />
-       <br />
-       <br />
+      <h1>About</h1>
+      <p
+        style={{
+          fontSize: "26px",
+          marginTop: "18px",
+          color: "white",
+          width: "60%",
+          lineHeight: "32px",
+          textAlign: "center",
+        }}
+        className="head-text"
+        data-aos="fade-right"
+      >
+        Hello! 👋, My name is Santosh Sharma, currently living in Delhi. I am
+        passionate about building digital products that improve everyday
+        experience for people. I am Quick learner and an aspiring full-stack web
+        developer with core knowledge of MERN stack technology. Looking forward
+        to apply and enhance my skills and knowledge as a developer.
+      </p>
     </>
   );
 };

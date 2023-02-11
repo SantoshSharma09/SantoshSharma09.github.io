@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
-import ResumePDF from './SantoshSharma_Resume.pdf';
-import {AiOutlineCloudDownload} from 'react-icons/ai'
+import ResumePDF from "./SantoshSharma_Resume.pdf";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 import "./Header.scss";
 
 const scaleVariants = {
@@ -30,17 +30,32 @@ const Header = () => (
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
-            <h1 className="head-text" style={{color:'#6b7688'}}>Santosh Sharma</h1>
+            <p
+              className="head-text"
+              style={{ color: "#6b7688", fontSize: "26px" }}
+            >
+              Santosh Sharma
+            </p>
           </div>
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Full-Stack</p>
-          <p className="p-text">Developer</p>
+          <p style={{ color: "#6b7688", fontSize: "18px" }} className="p-text">
+            Full-Stack Developer
+          </p>
+          <p className="p-text"></p>
         </div>
-        <a className="download_cv" href={`${ResumePDF}`} download={'SantoshSharma_Resume.pdf'}>
-        <AiOutlineCloudDownload className="resume-download-icon" fontSize='30px'/> 
-        <p className="p-text-resume">Resume</p>
+        <a
+          className="download_cv"
+          target="_blank"
+          href={`${ResumePDF}`}
+          download={"SantoshSharma_Resume.pdf"}
+        >
+          <AiOutlineCloudDownload
+            className="resume-download-icon"
+            fontSize="30px"
+          />
+          <p className="p-text-resume">Resume</p>
         </a>
       </div>
     </motion.div>
@@ -51,9 +66,13 @@ const Header = () => (
       className="app__header-img"
     >
       <img
-        src={images.santosh}
+        src="https://avatars.githubusercontent.com/u/109049556?v=4"
         alt="profile_bg"
-        style={{ background: "transparent",backgroundImage:'none' , borderRadius:'50% 50% 50% 50%' }}
+        style={{
+          background: "transparent",
+          backgroundImage: "none",
+          borderRadius: "50% 50% 50% 50%",
+        }}
       />
     </motion.div>
 

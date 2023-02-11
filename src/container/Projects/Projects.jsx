@@ -21,7 +21,11 @@ const Projects = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different" data-aos="fade-right">
+        <h2
+          style={{ textAlign: "center" }}
+          className="section__title different"
+          data-aos="fade-right"
+        >
           Projects
         </h2>
         <div className="projects_container">
