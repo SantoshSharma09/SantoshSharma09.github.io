@@ -14,13 +14,12 @@ const About = () => {
 
   return (
     <>
-      <h1>About</h1>
+      <h1>About Me</h1>
       <p
         style={{
           fontSize: "26px",
           marginTop: "18px",
           color: "white",
-          width: "60%",
           lineHeight: "32px",
           textAlign: "center",
         }}

@@ -65,13 +65,23 @@ const Footer = () => {
       <br />
       <br />
       <br />
-      <div>
-        <h2 className="head-text" data-aos="fade-right">
+      <div
+        style={{ width: "60%", textAlign: "cnter" }}
+        className="app__footer-card"
+      >
+        <h2
+          style={{
+            textAlign: "cnter",
+            display: "flex",
+            justifyContent: "center",
+            textAlign: "center",
+          }}
+        >
           Get In Touch
         </h2>
 
         <div className={styles.contactcontainer}>
-          <div className={styles.wrapper}>
+          <div style={{ width: "50%" }} className={styles.wrapper}>
             <form ref={form} onSubmit={sendEmail}>
               <input
                 style={{ height: "40px" }}
@@ -98,7 +108,7 @@ const Footer = () => {
                 className={styles.inpboxx}
               />
               <textarea
-                style={{ height: "100px", width: "400px", marginTop: "10px" }}
+                style={{ height: "100px", width: "80%%", marginTop: "10px" }}
                 cols="42"
                 rows="4"
                 placeholder="write your message"

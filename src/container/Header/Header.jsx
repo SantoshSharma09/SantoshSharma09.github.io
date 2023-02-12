@@ -25,10 +25,10 @@ const Header = () => (
       transition={{ duration: 0.5 }}
       className="app__header-info"
     >
-      <div className="app__header-badge">
+      <div style={{ marginLeft: "0px" }} className="app__header-badge">
         <div className="badge-cmp app__flex">
           <span>👋</span>
-          <div style={{ marginLeft: 20 }}>
+          <div style={{ paddingRight: "5px" }}>
             <p className="p-text">Hello, I am</p>
             <p
               className="head-text"
@@ -40,7 +40,14 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <p style={{ color: "#6b7688", fontSize: "18px" }} className="p-text">
+          <p
+            style={{
+              color: "#6b7688",
+              fontSize: "18px",
+              padding: "8px 10px 8px 10px",
+            }}
+            className="p-text"
+          >
             Full-Stack Developer
           </p>
           <p className="p-text"></p>

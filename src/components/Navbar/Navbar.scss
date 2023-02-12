@@ -28,11 +28,6 @@
   img {
     width: 150px;
     height: 40px;
-
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
-    }
   }
 }
 
@@ -83,6 +78,7 @@
 
   @media screen and (max-width: 900px) {
     display: none;
+    width: 60%;
   }
 }
 
@@ -167,10 +163,12 @@
 
     @media screen and (min-width: 900px) {
       display: none;
+      width: 60%;
     }
   }
 
   @media screen and (min-width: 900px) {
     display: none;
+    width: 60%;
   }
 }

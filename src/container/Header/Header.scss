@@ -34,7 +34,7 @@
   }
 
   @media screen and (max-width: 450px) {
-    padding: 6rem 1rem 2rem;
+    padding: 6rem 1rem;
   }
 }
 
@@ -63,7 +63,7 @@
 
   .badge-cmp,
   .tag-cmp {
-    padding: 1rem 2rem;
+    // padding: 1rem 2rem;
     background: var(--white-color);
     border-radius: 15px;
     flex-direction: row;
@@ -197,23 +197,23 @@
   }
 }
 
-a{
+a {
   text-decoration: none;
   list-style-type: none;
 }
-.download_cv{
+.download_cv {
   display: flex;
-  align-items:center;
-  gap:20px;
-  margin-top:40px;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
   text-decoration: none;
   list-style-type: none;
 }
-.p-text-resume{
+.p-text-resume {
   font-weight: 700;
 }
-.resume-download-icon{
+.resume-download-icon {
   text-decoration: none;
   list-style-type: none;
-  color:yellow
+  color: yellow;
 }
