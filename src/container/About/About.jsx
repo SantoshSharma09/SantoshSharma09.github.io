@@ -6,25 +6,18 @@ import "./About.scss";
 import { urlFor, client } from "../../client";
 // import { Timeline } from "../timeline/timeline";
 import { abouts } from "./data";
-// import AOS from "aos";
+import AOS from "aos";
 import "aos/dist/aos.css";
 
 const About = () => {
-  // AOS.init();
+  AOS.init();
 
   return (
     <>
       <h1>About Me</h1>
       <p
-        style={{
-          fontSize: "26px",
-          marginTop: "18px",
-          color: "white",
-          lineHeight: "32px",
-          textAlign: "center",
-        }}
-        className="head-text"
-        data-aos="fade-right"
+        className="about"
+        // data-aos="fade-right"
       >
         Hello! 👋, My name is Santosh Sharma, currently living in Delhi. I am
         passionate about building digital products that improve everyday

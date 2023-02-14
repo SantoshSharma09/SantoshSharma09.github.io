@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
-  background-color: black;
+  background-color: rgb(30, 41, 46);
   color: white;
 
   // disable the default padding styles
@@ -46,7 +46,7 @@
   align-items: flex-start;
   height: 100%;
 
-  margin: 0 2rem;
+  // margin: 0 2rem;
 
   @media screen and (max-width: 1200px) {
     width: 100%;

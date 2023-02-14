@@ -3,17 +3,23 @@ p {
 }
 .app {
   font-family: var(--font-base);
-  background-color: black;
+  // background-color: black;
   color: white;
+  background-color: rgb(30, 41, 46);
+  background-blend-mode: lighten;
 }
 
 .app__whitebg {
-  background-color: black;
+  // background-color: black;
+  background-color: rgb(30, 41, 46);
+  background-blend-mode: lighten;
   color: white;
 }
 
 .app__primarybg {
-  background-color: black;
+  // background-color: black;
+  background-color: rgb(30, 41, 46);
+  background-blend-mode: lighten;
   color: white;
 }
 
@@ -68,13 +74,13 @@ p {
     color: var(--secondary-color);
   }
 
-  @media screen and (min-width: 2000px) {
-    font-size: 4rem;
-  }
+  // @media screen and (min-width: 2000px) {
+  //   font-size: 4rem;
+  // }
 
-  @media screen and (max-width: 450px) {
-    font-size: 2rem;
-  }
+  // @media screen and (max-width: 450px) {
+  //   font-size: 2rem;
+  // }
 }
 
 .p-text {
@@ -190,5 +196,11 @@ p {
 
   .copyright {
     padding: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about {
+    width: 85%;
+    font-size: 8px;
   }
 }

@@ -62,7 +62,9 @@ const Header = () => (
             className="resume-download-icon"
             fontSize="30px"
           />
-          <p className="p-text-resume">Resume</p>
+          <p style={{ color: "white" }} className="p-text-resume">
+            Resume
+          </p>
         </a>
       </div>
     </motion.div>
@@ -76,23 +78,12 @@ const Header = () => (
         src="https://avatars.githubusercontent.com/u/109049556?v=4"
         alt="profile_bg"
         style={{
+          width: "50%",
           background: "transparent",
           backgroundImage: "none",
           borderRadius: "50% 50% 50% 50%",
         }}
       />
-    </motion.div>
-
-    <motion.div
-      variants={scaleVariants}
-      whileInView={scaleVariants.whileInView}
-      className="app__header-circles"
-    >
-      {[images.react, images.redux, images.node].map((circle, index) => (
-        <div className="circle-cmp app__flex" key={`circle-${index}`}>
-          <img src={circle} alt="profile_bg" />
-        </div>
-      ))}
     </motion.div>
   </div>
 );

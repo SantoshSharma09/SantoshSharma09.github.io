@@ -38,161 +38,209 @@ const Skills = () => {
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiJavascript />
             </div>
-            <p className="p-text">JavaScript</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              JavaScript
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiHtml5 />
             </div>
-            <p className="p-text">HTML</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              HTML
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiCss3 />
             </div>
-            <p className="p-text">CSS</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              CSS
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <FaReact />
             </div>
-            <p className="p-text">React</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              React
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiRedux />
             </div>
-            <p className="p-text">Redux</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Redux
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiExpress />
             </div>
-            <p className="p-text">Express</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Express
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <FaNodeJs />
             </div>
-            <p className="p-text">Nodejs</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Nodejs
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <DiMongodb />
             </div>
-            <p className="p-text">MongoDB</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              MongoDB
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiChakraui />
             </div>
-            <p className="p-text">Chakra UI</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Chakra UI
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiMaterialui />
             </div>
-            <p className="p-text">Material UI</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Material UI
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <BsBootstrap />
             </div>
-            <p className="p-text">Bootstrap</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Bootstrap
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiPostman />
             </div>
-            <p className="p-text">Postman</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Postman
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <VscGithub />
             </div>
-            <p className="p-text">GitHub</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              GitHub
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiNetlify />
             </div>
-            <p className="p-text">Netlify</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Netlify
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <SiVercel />
             </div>
-            <p className="p-text">Vercel</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Vercel
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className="app__skills-item app__flex"
+            style={{ backgroundColor: "black" }}
           >
             <div className="app__flex" style={{ backgroundColor: "none" }}>
               <DiHeroku />
             </div>
-            <p className="p-text">Heroku</p>
+            <p style={{ color: "white", fontSize: "18px" }} className="p-text">
+              Heroku
+            </p>
           </motion.div>
         </motion.div>
       </div>
@@ -218,7 +266,7 @@ const Skills = () => {
       <br />
       <br />
       <br />
-      <div>
+      <div className="github">
         <h2 className="head-text" data-aos="fade-right">
           GitHub Stats
         </h2>
@@ -232,14 +280,31 @@ const Skills = () => {
             gap: "10px",
           }}
         >
-          <img
-            src="https://camo.githubusercontent.com/92e4bffab3d5536d6950781e7656d7b8871f84987e9fcbc5dab4905cb3ece45f/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d73616e746f7368736861726d6130392673686f775f69636f6e733d74727565266c6f63616c653d656e"
-            style={{ marginRight: "10px", width: "100%" }}
-          />
-          <img
-            style={{ marginRight: "10px", width: "100%" }}
-            src="https://camo.githubusercontent.com/bf49846a4b5ca6d44c6b6e12e6a2f1973309410426484d7d07f6a8ca0cc1583a/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d73616e746f7368736861726d6130392673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
-          />
+          <p>
+            <img
+              align="center"
+              src="https://github-readme-stats.vercel.app/api/top-langs?username=santoshsharma09&show_icons=true&locale=en&layout=compact"
+              alt="santoshsharma09"
+            />
+          </p>
+
+          <p>
+            &nbsp;
+            <img
+              align="center"
+              width="100%"
+              src="https://github-readme-stats.vercel.app/api?username=santoshsharma09&show_icons=true&locale=en"
+              alt="santoshsharma09"
+            />
+          </p>
+
+          <p>
+            <img
+              align="center"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=santoshsharma09&"
+              alt="santoshsharma09"
+            />
+          </p>
         </div>
         <br />
         <br />

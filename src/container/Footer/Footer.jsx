@@ -80,7 +80,10 @@ const Footer = () => {
           Get In Touch
         </h2>
 
-        <div className={styles.contactcontainer}>
+        <div
+          style={{ marginTop: "30px", marginBottom: "30px" }}
+          className={styles.contactcontainer}
+        >
           <div style={{ width: "50%" }} className={styles.wrapper}>
             <form ref={form} onSubmit={sendEmail}>
               <input
@@ -108,13 +111,13 @@ const Footer = () => {
                 className={styles.inpboxx}
               />
               <textarea
-                style={{ height: "100px", width: "80%%", marginTop: "10px" }}
+                style={{ height: "100px", width: "80%%", marginTop: "5px" }}
                 cols="42"
                 rows="4"
                 placeholder="write your message"
               ></textarea>
               <button
-                style={{ display: "flex", marginTop: "10px", margin: "auto" }}
+                style={{ display: "flex", marginTop: "25px", margin: "auto" }}
                 type="submit"
                 className={styles.button73}
               >

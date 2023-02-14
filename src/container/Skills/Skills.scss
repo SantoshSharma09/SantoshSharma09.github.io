@@ -14,28 +14,26 @@
 
   @media screen and (max-width: 900px) {
     width: 100%;
-   }
+  }
 }
 
 .app__skills-list {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   @media screen and (max-width: 900px) {
     margin-right: 0;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(4,1fr);
-    
+    grid-template-columns: repeat(4, 1fr);
   }
   @media screen and (max-width: 400px) {
     margin-right: 0;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(2,1fr);
-    
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -49,17 +47,15 @@
   cursor: pointer;
   transition: all 0.5s ease 0s;
 
-
   div {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-   
+
     svg {
       font-size: 8vh;
       color: #90a0d9;
     }
-
 
     @media screen and (min-width: 2000px) {
       width: 150px;
@@ -161,32 +157,33 @@
   }
 }
 
-.app__skills-item:hover{
+.app__skills-item:hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
   border: 1px solid #90a0d9;
-
 }
 
-.head-text{
+.head-text {
   color: white;
 }
 
-.git-stats{
+.git-stats {
   display: flex;
-  gap:20px;
+  gap: 20px;
   flex-direction: row;
   @media screen and (max-width: 900px) {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    
-    img{
-      max-width: 90%;
+
+    img {
+      max-width: 50%;
       margin: auto;
     }
   }
-
-
-
 }
 
+@media only screen and (max-width: 600px) {
+  .github img {
+    width: 85%;
+  }
+}
