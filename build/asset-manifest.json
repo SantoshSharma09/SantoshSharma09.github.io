@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2311fa64.css",
-    "main.js": "/static/js/main.ef5b5a2e.js",
-    "static/media/hotstar.PNG": "/static/media/hotstar.bc505c68e6d5ea398f24.PNG",
+    "main.css": "/static/css/main.34a0cfc0.css",
+    "main.js": "/static/js/main.f8462dba.js",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
-    "static/media/youtube.PNG": "/static/media/youtube.90e996fadf6306b4a737.PNG",
+    "static/media/nayaka.PNG": "/static/media/nayaka.5feb59f9652059895ea4.PNG",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
+    "static/media/flower.PNG": "/static/media/flower.18a1e1607cd9d31f48a6.PNG",
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/fabbag.PNG": "/static/media/fabbag.d5b474b8853cf2358bef.PNG",
     "static/media/mailchimp.PNG": "/static/media/mailchimp.dbf779022af67f132304.PNG",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
-    "static/media/SantoshSharma_Resume.pdf": "/static/media/SantoshSharma_Resume.a78f6dca70e233e28b89.pdf",
-    "static/media/studentDashboard.PNG": "/static/media/studentDashboard.300bfadbdf17cf51fd80.PNG",
+    "static/media/Santosh_Sharma_Resume.pdf": "/static/media/Santosh_Sharma_Resume.d8bd175b375bbc117a14.pdf",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/santosh.jpg": "/static/media/santosh.b4cbc4c16f798ff68cd8.jpg",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
@@ -22,11 +21,11 @@
     "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.2311fa64.css.map": "/static/css/main.2311fa64.css.map",
-    "main.ef5b5a2e.js.map": "/static/js/main.ef5b5a2e.js.map"
+    "main.34a0cfc0.css.map": "/static/css/main.34a0cfc0.css.map",
+    "main.f8462dba.js.map": "/static/js/main.f8462dba.js.map"
   },
   "entrypoints": [
-    "static/css/main.2311fa64.css",
-    "static/js/main.ef5b5a2e.js"
+    "static/css/main.34a0cfc0.css",
+    "static/js/main.f8462dba.js"
   ]
 }

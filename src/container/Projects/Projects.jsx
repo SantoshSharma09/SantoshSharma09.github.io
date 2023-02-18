@@ -128,8 +128,7 @@ const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>FabBag - Clone</h2>
               <p>
-                FabBag is a e-commerce website where female can buy
-                skincare-products.
+              FAB BAG is a beauty/grooming discovery and subscription platform. It offers beauty & grooming “subscription packages”. Solo project completed in 4days.
               </p>
               <div>
                 {/* <FaReact /> */}
