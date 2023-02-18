@@ -141,7 +141,7 @@ const Footer = () => {
             <a
               className="soc-4-icon"
               target="_blank"
-              href="www.linkedin.com/in/santosh-sharma-b802341b9"
+              href="https://www.linkedin.com/in/santosh-sharma-b802341b9"
             >
               <SiLinkedin />
             </a>
