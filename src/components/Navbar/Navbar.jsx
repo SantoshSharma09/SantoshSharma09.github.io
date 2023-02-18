@@ -24,11 +24,20 @@ const Navbar = () => {
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />
               {item === "resume" ? (
-                <a href={ResumePDF} download onClick={onButtonClick}>
+                <a
+                  style={{ color: "white" }}
+                  href={ResumePDF}
+                  download
+                  onClick={onButtonClick}
+                >
                   {item}
                 </a>
               ) : (
-                <a href={`#${item}`} onClick={() => setToggle(false)}>
+                <a
+                  style={{ color: "white" }}
+                  href={`#${item}`}
+                  onClick={() => setToggle(false)}
+                >
                   {item}
                 </a>
               )}
@@ -51,11 +60,20 @@ const Navbar = () => {
                 (item) => (
                   <li key={item}>
                     {item === "resume" ? (
-                      <a href={ResumePDF} download onClick={onButtonClick}>
+                      <a
+                        style={{ color: "white" }}
+                        href={ResumePDF}
+                        download
+                        onClick={onButtonClick}
+                      >
                         {item}
                       </a>
                     ) : (
-                      <a href={`#${item}`} onClick={() => setToggle(false)}>
+                      <a
+                        style={{ color: "white" }}
+                        href={`#${item}`}
+                        onClick={() => setToggle(false)}
+                      >
                         {item}
                       </a>
                     )}
