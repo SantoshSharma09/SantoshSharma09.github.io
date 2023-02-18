@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
-import ResumePDF from "./SantoshSharma_Resume.pdf";
+import ResumePDF from "./Santosh_Sharma_Resume.pdf";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import "./Header.scss";
 
@@ -16,6 +16,12 @@ const scaleVariants = {
       ease: "easeInOut",
     },
   },
+};
+
+const onButtonClick = () => {
+  window.open(
+    "https://drive.google.com/file/d/1ah7a1cotcmOdPCiiUR-GtJnQJWep75HT/view?usp=share_link"
+  );
 };
 
 const Header = () => (
@@ -53,10 +59,10 @@ const Header = () => (
           <p className="p-text"></p>
         </div>
         <a
-          className="download_cv"
-          target="_blank"
-          href={`${ResumePDF}`}
-          download={"SantoshSharma_Resume.pdf"}
+          style={{ display: "flex", marginTop: "30px", gap: "10px" }}
+          href={ResumePDF}
+          download
+          onClick={onButtonClick}
         >
           <AiOutlineCloudDownload
             className="resume-download-icon"
@@ -78,7 +84,7 @@ const Header = () => (
         src="https://avatars.githubusercontent.com/u/109049556?v=4"
         alt="profile_bg"
         style={{
-          width: "50%",
+          width: "60%",
           background: "transparent",
           backgroundImage: "none",
           borderRadius: "50% 50% 50% 50%",

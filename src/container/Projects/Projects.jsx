@@ -14,7 +14,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
-import { fabbag, youtube, hotstar, sd, mailchimp } from "./Images/image";
+import { fabbag, flower, mailchimp, nayaka } from "./Images/image";
 
 const Projects = () => {
   AOS.init();
@@ -28,16 +28,64 @@ const Projects = () => {
         >
           Projects
         </h2>
+
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img src={mailchimp} alt="mailchimp" />
+                <img src={nayaka} alt="nykaa" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Mailchimp - Clone</h2>
-              <p>Website where user cna email services.</p>
+              <h2>Nykaa.com - Clone</h2>
+              <p>
+                Nykaa is India's biggest lifestyle and fashion portal with a
+                collection of cosmetics, skincare, haircare, fragrances, bath
+                and body, personal care, and wellness ...
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <SiCss3 />
+                <IoLogoJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://panachebeauty.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/AdityaBr11/Nykaa-Clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src={flower} alt="flower" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>1800flower.com - Clone</h2>
+              <p>
+                1-800-Flowers.com, Inc. is a floral and foods gift retailer and
+                distribution company in the United States. This is a
+                collaborative project build in 4 days.{" "}
+              </p>
               <div>
                 <FaReact />
                 <SiHtml5 />
@@ -49,7 +97,7 @@ const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://skillfull-react.netlify.app"
+                  href="https://flower18.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -58,7 +106,7 @@ const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/SantoshSharma09/Skillfull-React"
+                  href="https://github.com/SantoshSharma09/1800flowers-clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -117,53 +165,15 @@ const Projects = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img src={youtube} alt="youtube" />
+                <img src={mailchimp} alt="mailchimp" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Youtube - Demo</h2>
-              <p>Website with HTML, CSS, JavaScript, Api call, Debouncing</p>
-              <div>
-                <FaReact />
-                <SiHtml5 />
-                <SiCss3 />
-                <IoLogoJavascript />
-              </div>
-              <div>
-                <a
-                  href="https://resilient-donut-88fc43.netlify.app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/masai-course/santosh_sharma_fw20_1313/tree/master/unit-3/sprint-3/day-3/assignments/Question1"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img src={hotstar} alt="hotstar" />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>Hotstar - Demo </h2>
+              <h2>Mailchimp.com - Clone </h2>
               <p>
-                Website built with HTML, CSS, JavaScript and other CSS
-                Libraries.
+                Mailchimp, also known as Intuit Mailchimp, is a marketing
+                automation platform and email marketing service. Solo project
+                completed in 4 days.
                 <br />
                 Functionality : Api Call, Debouncing
               </p>
@@ -174,7 +184,7 @@ const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://elaborate-zabaione-40cb11.netlify.app"
+                  href="https://skillfull-react.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -183,52 +193,7 @@ const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/masai-course/santosh_sharma_fw20_1313/tree/master/unit-3/sprint-2/day-4/assignments/Question2"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img src={sd} alt="studentDashboard" />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>Student Dashboard App</h2>
-              <p>
-                Responsive project to enter the data of the client to the
-                specific section.
-                <br />
-                Tech Stack : Javascript, localStorage, CSS, HTML
-              </p>
-              <div>
-                <SiHtml5 />
-                <IoLogoJavascript />
-                <SiCss3 />
-                {/* <FaReact /> */}
-                {/* <SiChakraui /> */}
-              </div>
-              <div>
-                <a
-                  href="https://stalwart-melba-705f99.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/masai-course/santosh_sharma_fw20_1313/tree/master/unit-2/sprint-4/day-4/assignments/u2c4"
+                  href="https://github.com/SantoshSharma09/Mailchimp-clone"
                   target="_blank"
                   rel="noreferrer"
                 >

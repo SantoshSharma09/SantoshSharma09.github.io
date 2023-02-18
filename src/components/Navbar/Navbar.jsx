@@ -2,10 +2,16 @@ import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import "./Navbar.scss";
-import ResumePDF from "./SantoshSharma_Resume.pdf";
+import ResumePDF from "./Santosh_Sharma_Resume.pdf";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
+  const onButtonClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1ah7a1cotcmOdPCiiUR-GtJnQJWep75HT/view?usp=share_link"
+    );
+  };
 
   return (
     <nav className="app__navbar">
@@ -18,11 +24,7 @@ const Navbar = () => {
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />
               {item === "resume" ? (
-                <a
-                  target="_blank"
-                  href={`${ResumePDF}`}
-                  onClick={() => setToggle(false)}
-                >
+                <a href={ResumePDF} download onClick={onButtonClick}>
                   {item}
                 </a>
               ) : (
@@ -49,11 +51,7 @@ const Navbar = () => {
                 (item) => (
                   <li key={item}>
                     {item === "resume" ? (
-                      <a
-                        target="_blank"
-                        href={`${ResumePDF}`}
-                        onClick={() => setToggle(false)}
-                      >
+                      <a href={ResumePDF} download onClick={onButtonClick}>
                         {item}
                       </a>
                     ) : (

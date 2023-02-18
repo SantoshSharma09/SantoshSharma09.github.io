@@ -10,9 +10,12 @@ const SocialMedia = () => (
         <GoMarkGithub />
       </a>
     </div>
-    
+
     <div>
-      <a target="_blank" href="www.linkedin.com/in/santosh-sharma-b802341b9">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/santosh-sharma-b802341b9"
+      >
         <SiLinkedin />
       </a>
     </div>

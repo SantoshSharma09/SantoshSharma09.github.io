@@ -281,7 +281,9 @@ const Skills = () => {
           }}
         >
           <p>
+            &nbsp;
             <img
+              width="100%"
               align="center"
               src="https://github-readme-stats.vercel.app/api/top-langs?username=santoshsharma09&show_icons=true&locale=en&layout=compact"
               alt="santoshsharma09"
@@ -299,7 +301,9 @@ const Skills = () => {
           </p>
 
           <p>
+            &nbsp;
             <img
+              width="100%"
               align="center"
               src="https://github-readme-streak-stats.herokuapp.com/?user=santoshsharma09&"
               alt="santoshsharma09"
