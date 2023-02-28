@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.02cb7de7.css",
-    "main.js": "/static/js/main.6422232e.js",
+    "main.css": "/static/css/main.209308d3.css",
+    "main.js": "/static/js/main.74090df5.js",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/nayaka.PNG": "/static/media/nayaka.5feb59f9652059895ea4.PNG",
@@ -11,7 +11,7 @@
     "static/media/fabbag.PNG": "/static/media/fabbag.d5b474b8853cf2358bef.PNG",
     "static/media/mailchimp.PNG": "/static/media/mailchimp.dbf779022af67f132304.PNG",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
-    "static/media/Santosh_Sharma_Resume.pdf": "/static/media/Santosh_Sharma_Resume.d8bd175b375bbc117a14.pdf",
+    "static/media/fw20_1313-Santosh-Sharma-Resume.pdf": "/static/media/fw20_1313-Santosh-Sharma-Resume.d8bd175b375bbc117a14.pdf",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/santosh.jpg": "/static/media/santosh.b4cbc4c16f798ff68cd8.jpg",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
@@ -21,11 +21,11 @@
     "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.02cb7de7.css.map": "/static/css/main.02cb7de7.css.map",
-    "main.6422232e.js.map": "/static/js/main.6422232e.js.map"
+    "main.209308d3.css.map": "/static/css/main.209308d3.css.map",
+    "main.74090df5.js.map": "/static/js/main.74090df5.js.map"
   },
   "entrypoints": [
-    "static/css/main.02cb7de7.css",
-    "static/js/main.6422232e.js"
+    "static/css/main.209308d3.css",
+    "static/js/main.74090df5.js"
   ]
 }
