@@ -2,10 +2,11 @@
   flex: 1;
   width: 100%;
   flex-direction: column;
+  border: "1px solid red";
 }
 
 .app__skills-container {
-  width: 80%;
+  width: 100%;
   margin-top: 3rem;
 
   display: flex;
@@ -29,6 +30,31 @@
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
   }
+  @media screen and (max-width: 945px) {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  @media screen and (max-width: 800px) {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media screen and (max-width: 640px) {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 490px) {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   @media screen and (max-width: 400px) {
     margin-right: 0;
     justify-content: center;
@@ -60,6 +86,7 @@
     @media screen and (min-width: 2000px) {
       width: 150px;
       height: 150px;
+      width: 85%;
     }
 
     @media screen and (max-width: 450px) {
@@ -152,7 +179,7 @@
 
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem !important;
-    max-width: 500px !important;
+    max-width: 100% !important;
     line-height: 2 !important;
   }
 }
@@ -184,6 +211,6 @@
 
 @media only screen and (max-width: 600px) {
   .github img {
-    width: 85%;
+    width: 95%;
   }
 }

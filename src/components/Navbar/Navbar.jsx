@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import "./Navbar.scss";
-import ResumePDF from "./Santosh_Sharma_Resume.pdf";
+import ResumePDF from "./fw20_1313-Santosh-Sharma-Resume.pdf";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const onButtonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1ah7a1cotcmOdPCiiUR-GtJnQJWep75HT/view?usp=share_link"
+      "https://drive.google.com/file/d/15fuNksfAmaKVIU0r-AF2sgBcbBQpo5I4/view?usp=share_link"
     );
   };
 
@@ -61,7 +61,7 @@ const Navbar = () => {
                   <li key={item}>
                     {item === "resume" ? (
                       <a
-                        style={{ color: "white" }}
+                        style={{ color: "black" }}
                         href={ResumePDF}
                         download
                         onClick={onButtonClick}
@@ -70,7 +70,7 @@ const Navbar = () => {
                       </a>
                     ) : (
                       <a
-                        style={{ color: "white" }}
+                        style={{ color: "black" }}
                         href={`#${item}`}
                         onClick={() => setToggle(false)}
                       >

@@ -3,24 +3,13 @@ import { motion } from "framer-motion";
 
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
-import ResumePDF from "./Santosh_Sharma_Resume.pdf";
+import ResumePDF from "./fw20_1313-Santosh-Sharma-Resume.pdf";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import "./Header.scss";
 
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duration: 1,
-      ease: "easeInOut",
-    },
-  },
-};
-
 const onButtonClick = () => {
   window.open(
-    "https://drive.google.com/file/d/1ah7a1cotcmOdPCiiUR-GtJnQJWep75HT/view?usp=share_link"
+    "https://drive.google.com/file/d/15fuNksfAmaKVIU0r-AF2sgBcbBQpo5I4/view?usp=share_link"
   );
 };
 
@@ -50,7 +39,7 @@ const Header = () => (
             style={{
               color: "#6b7688",
               fontSize: "18px",
-              padding: "8px 10px 8px 10px",
+              padding: "15px 15px 15px 15px",
             }}
             className="p-text"
           >

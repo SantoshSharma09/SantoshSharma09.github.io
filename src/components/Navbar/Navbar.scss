@@ -90,12 +90,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-color);
+  // background-color: var(--secondary-color);
 
   svg {
     width: 70%;
     height: 70%;
-    color: var(--white-color);
+    // color: var(--white-color);
   }
 
   div {
@@ -143,9 +143,11 @@
       flex-direction: column;
 
       li {
+        color: black;
         margin: 1rem;
 
         a {
+          color: black;
           color: var(--gray-color);
           text-decoration: none;
           font-size: 1rem;
@@ -153,8 +155,14 @@
           font-weight: 500;
 
           transition: all 0.3s ease-in-out;
+          @media screen and (min-width: 900px) {
+            color: black;
+          }
 
           &:hover {
+            @media screen and (min-width: 900px) {
+              color: black;
+            }
             color: var(--secondary-color);
           }
         }
@@ -168,6 +176,7 @@
   }
 
   @media screen and (min-width: 900px) {
+    color: black;
     display: none;
     width: 60%;
   }
